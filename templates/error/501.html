@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout/layout :: head"></head>
+<body>
+	<div class="container py-4">
+		<div class="card bg-danger text-white">			
+			<div class="card-header" >Error 501: Not Implemented (en-US)</div>
+			<div class="card-body" >			
+				<div th:text="${timestamp}"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
